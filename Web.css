@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: url(cloud12345.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+header{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo{
+	position: relative;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 1px;
+	transition: 0.3s ease;	
+	}
+	
+header .logo:hover{
+	color: #ff7200;
+	transform: scale(1.5);
+}
+
+.menu-button{
+	background-color: transparent;
+	color: #fff;
+	padding: 15px;
+	font-size: 15px;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+.right-menu{
+	position: relative;
+	display: inline-block;
+	float: right;
+}
+
+.navigation{
+	color: #fff;
+	display: none;
+	position: absolute;
+	font-weight: 500;
+	padding: 10px 5px;
+	min-width: 158px;
+	z-index: 1;
+}
+
+.navigation a{
+	color: #fff;
+}
+
+.navigation a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.right-menu:hover .navigation{
+	display: block;
+}
+
+.right-menu:hover .menu-button{
+	background-color: transparent;
+}
+
+.content{
+	max-width: 650px;
+	margin: 60px 100px;
+}
+
+.content .info h2{
+	color: #226A80;
+	font-size: 55px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	line-height: 60px;
+	margin-bottom: 30px;
+	transition: 0.3s;
+}
+
+.content .info h2 span{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.content .info p{
+	color: #dbd7d2;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 40px	
+}
+
+.content .info-btn{
+	color: #fff;
+	background: #226A80;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: 0.3s;
+	transition-property: background;
+}
+
+.content .info-btn:hover{
+	background: #0C4F60;
+}
+
+.icon{
+width: 200px;
+float: left;
+height: 70px;
+}
+.icons a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+.icons ion-icon{
+	position: relative;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: 30px;
+	transition: 0.3s ease;
+	transition-property: transform;
+	
+}
+
+.icons ion-icon:hover{
+	color: #ff7200;
+	transform: scale(1.5);
+}
+
+
+.foot{
+	color: #fff;
+}
+
+	
+	
